@@ -54,6 +54,7 @@ Version|Date|Comments
 * Make sure to keep **Scale to fit** on
 * Once your app is saved and published, go to make.powerapps.com and find the **App ID** by browsing to **Apps**, selecting the app you wish to embed (*select it*, don't *launch it*) and viewing **Details**
 * In the app details page, find the **Web link** or **App ID** and copy it.
+![Add web link or app id](./assets/step1-5.png).
 * Add the **Enhanced Power Apps** web part to a page.
 * In the web part's property pane, paste the value you copied in the **App web link or ID** field.
 * In the **Appearance** group, select **Maintain aspect** for the **Resize behavior** and select the **Aspect ratio** that matches the application size you selected earlier
