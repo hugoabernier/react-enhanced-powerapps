@@ -10,7 +10,7 @@ Sample web part showing how to embed a Power App that resizes, adapts to themes,
 
 ## Used SharePoint Framework Version
 
-![1.10.0](https://img.shields.io/badge/version-1.10.0-green.svg)
+![1.11.0](https://img.shields.io/badge/version-1.11.0-green.svg)
 
 ## Applies to
 
