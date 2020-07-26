@@ -57,6 +57,7 @@ Version|Date|Comments
 * Add the **Enhanced Power Apps** web part to a page.
 * In the web part's property pane, paste the value you copied in the **App web link or ID** field.
 * In the **Appearance** group, select **Maintain aspect** for the **Resize behavior** and select the **Aspect ratio** that matches the application size you selected earlier
+![Appearance](./assets/step2.png)
 
 You can also use dynamic properties to pass values from another web part on the page (or page context information) to Power Apps and/or make your app change colors to match the SharePoint page theme and section color.
 
@@ -99,7 +100,7 @@ To configure it, follow these steps:
   - For **Connect to Source** select your list/document library web part name
   - In the **[Your web part name]'s properties** select **Column containing the filter value**
   - In the **Column containing the filter value**, select the column that has the value you'd like to pass to Power Apps
-  - In the **Parameter name** field, enter the parameter name that you'll want to use within Power Apps to retrieve this value. For example, if you selected the `ID` field, type `id`.
+  - In the **Parameter name** field, enter the parameter name that you'll want to use within Power Apps to retrieve this value. For example, if you selected the `ID` field, type `ID`.
   - Within Power Apps, use `Param()` and the parameter name you specified above. For example, if you specified `ID` above, you'll want to use `Param('ID')` within Power Apps to retrieve the value. Remember that parameter names are _case-sensitive_.
 
 Note that the web part always sends the current page's locale to Power Apps via the `locale` parameter. You can use this value to create multi-language apps.
