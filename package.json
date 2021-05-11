@@ -24,7 +24,7 @@
     "office-ui-fabric-react": "6.214.0",
     "react": "16.8.5",
     "react-dom": "16.8.5",
-    "lodash": ">=4.17.19",
+    "lodash": ">=4.17.21",
     "serialize-javascript": ">=2.1.1",
     "lodash.template": ">=4.5.0"
   },
